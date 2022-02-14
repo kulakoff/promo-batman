@@ -48,7 +48,7 @@ h6 {
   padding-bottom: 6.4rem;
   left: 50%;
   top: 6.4rem;
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
 }
 .header .container {
   display: flex;
@@ -88,15 +88,14 @@ h6 {
 }
 
 body {
-  
 }
 
-.main{
+.main {
   padding-top: 18.7rem;
   background: url("../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x:center;
+  background-position-x: center;
   background-position-y: top;
 }
 
@@ -161,6 +160,13 @@ body {
   text-decoration: none;
   background-color: #151515;
   border-radius: 0.8rem;
+}
+
+.main-slider__slide {
+  width: 16.4rem;
+  height: 10.5rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
 }
 
 .footer {
