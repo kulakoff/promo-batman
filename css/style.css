@@ -181,7 +181,7 @@ img {
   min-height: 100vh;
   padding-top: 18.7rem;
   padding-bottom: 10.4rem;
-  background: url("../img/background.png");
+  background-image: url("./../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
