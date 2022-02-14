@@ -1,9 +1,9 @@
 const swiper = new Swiper(".main-slider", {
-  sliderPerview: 2,
+  slidesPerView: 2,
+  // spaceBetween: 10,
   loop: true,
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".main-slider__arrow",
   },
 });

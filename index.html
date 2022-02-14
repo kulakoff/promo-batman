@@ -13,30 +13,39 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <container class="container">
         <div class="header__menu">
-          <div class="geader__logo">
-            <img src="./img/logo.svg" alt="logo" />
+          <div class="header__logo">
+            <img src="img/logo.svg" alt="logo">
           </div>
-          <nav class="header__nav">
-            <a href="#">Описание</a>
-            <a href="#">Трейлер</a>
-            <a href="#">Отзывы</a>
-          </nav>
+            <nav class="header__nav">
+              <a href="#">Описание </a>
+              <a href="#">Трейлер</a>
+              <a href="#">Отзывы</a>
+            </nav>
         </div>
-        <div class="header__social">
-          <a class="header__social-icon" href="#">
-            <img src="./img/twitter.svg" alt="twitter" />
+        <div class="header__socials">
+          <a class="header__socials-icon" href="#">
+            <img src="img/twitter.svg" alt="twitter">
           </a>
-          <a class="header__social-icon" href="#">
-            <img src="./img/instagram.svg" alt="instagram" />
-          </a>
-          <a class="header__social-icon" href="#">
-            <img src="./img/facebook.svg" alt="facebook" />
-          </a>
+          <a class="header__socials-icon" href="#">
+          <img src="img/instagram.svg" alt="instagram">
+        </a>
+          <a class="header__socials-icon" href="#">
+          <img src="img/facebook.svg" alt="facebook">
+        </a>
         </div>
-      </div>
-    </header>
+        <div class="header__nav-mobile">
+          <a href="#">Описание</a>
+          <a href="#">Трейлер</a>
+          <a href="#">Отзывы</a>
+        </div>
+        <div class="header__menu-close">
+          <img src="img/menu-button-close.svg" alt="">
+        </div>
+        
+      </container>
+  </header>
     <main class="main">
       <div class="container">
         <div class="main__rating-title">2022, боевик, триллер</div>
@@ -79,41 +88,53 @@
           </div>
         </div>
         <h1 class="main__header">Бэтмен</h1>
-        <div class="main__description">
-          После двух лет поисков правосудия на улицах Готэма для своих сограждан
-          Бэтмен становится олицетворением беспощадного возмездия. Когда в
-          городе происходит серия жестоких нападений на представителей элиты,
-          загадочные улики приводят Брюса Уэйна в самые темные закоулки
-          преступного мира. Теперь под прицелом оказывается сам Бэтмен.
+        <div class="main__description-wrap">
+          <div class="main__description">
+            После двух лет поисков правосудия на улицах Готэма для своих
+            сограждан Бэтмен становится олицетворением беспощадного возмездия.
+            Когда в городе происходит серия жестоких нападений на представителей
+            элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки
+            преступного мира. Теперь под прицелом оказывается сам Бэтмен.
+          </div>
+          <div class="main__button-play">
+            <div class="main__button-dark">
+              <img src="./img/button-play.svg" alt="play-button" />
+            </div>
+          </div>
         </div>
         <a href="#" class="main__button">Купить билеты</a>
 
-        <div class="main-slider swiper">
-          <div class="swiper-wrapper">
-            <div class="main-slider__slide swiper-slide">
-              <img src="./img/card-image1.png" alt="slide" />
-              <span>Трейлер #1</span>
+        <div class="main-slinder__wrap">
+          <div class="main-slider swiper">
+            <div class="swiper-wrapper">
+              <div class="main-slider__slide swiper-slide">
+                <img src="./img/card-image1.png" alt="slide" />
+                <span>Трейлер #1</span>
+              </div>
+              <div class="main-slider__slide swiper-slide">
+                <img src="./img/card-image2.png" alt="slide" />
+                <span>Трейлер #2</span>
+              </div>
+              <div class="main-slider__slide swiper-slide">
+                <img src="./img/card-image1.png" alt="slide" />
+                <span>Трейлер #3</span>
+              </div>
+              <div class="main-slider__slide swiper-slide">
+                <img src="./img/card-image2.png" alt="slide" />
+                <span>Трейлер #4</span>
+              </div>
+              <div class="main-slider__slide swiper-slide">
+                <img src="./img/card-image1.png" alt="slide" />
+                <span>Трейлер #5</span>
+              </div>
+              <div class="main-slider__slide swiper-slide">
+                <img src="./img/card-image2.png" alt="slide" />
+                <span>Трейлер #6</span>
+              </div>
             </div>
-            <div class="main-slider__slide swiper-slide">
-              <img src="./img/card-image2.png" alt="slide" />
-              <span>Трейлер #2</span>
-            </div>
-            <div class="main-slider__slide swiper-slide">
-              <img src="./img/card-image1.png" alt="slide" />
-              <span>Трейлер #3</span>
-            </div>
-            <div class="main-slider__slide swiper-slide">
-              <img src="./img/card-image2.png" alt="slide" />
-              <span>Трейлер #4</span>
-            </div>
-            <div class="main-slider__slide swiper-slide">
-              <img src="./img/card-image1.png" alt="slide" />
-              <span>Трейлер #5</span>
-            </div>
-            <div class="main-slider__slide swiper-slide">
-              <img src="./img/card-image2.png" alt="slide" />
-              <span>Трейлер #6</span>
-            </div>
+          </div>
+          <div class="main-slider__arrow">
+            <img src="./img/arrow-slider.svg" alt="arrow" />
           </div>
         </div>
       </div>
